@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.a{
+			background-color: blue;
+			flex-grow: 10;
+		}
+		.b{
+			background-color: yellow;
+			flex-grow: 10;
+		}
+		.c{
+			background-color: red;
+			flex-grow: 10;
+		}
+		.flex-container{
+			display: flex;
+			flex-direction: columns;
+		}
+
+		@media only screen and (min-width: 600px){
+			.flex-container{
+				display: flex;
+				flex-direction: row;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="a">
+			<h1>1</h1></div>
+		<div class="b">
+			<h1>2</h1></div>
+		<div class="c">
+			<h1>3</h1></div>
+	</div>
+
+</body>
+</html>
